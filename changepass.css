@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: century gothic
+}
+
+div.white-bg {
+	width: 800px;
+	height: 100vh;
+	background-color: white;
+	position: absolute;
+}
+
+.text-cp {
+	background: linear-gradient(136deg, #C837AB 0%, #1D066E 100%);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+ 	font-size: 90px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+div.cp {
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 200px;
+}
+
+
+
+div.newpass{
+	margin-left: 1100px;
+	position: absolute;
+	margin-top: 250px;
+	border-style: none;
+}
+
+.oldpass {
+	border-radius: 20px;
+	padding: 20px;
+	margin-right: 200px; 
+	margin-top: 100px;
+	width:300px;
+	border: 3px solid  #2672AA;
+	outline: none;
+	font-size: 15px;
+	position: absolute;
+	background-color:rgb(30, 30, 30);
+}
+
+.newpass {
+	border-radius: 20px;
+	padding: 20px;
+	margin-right: 160px; 
+	margin-top: 200px;
+	width:300px;
+	border: 3px solid  #2672AA;
+	outline: none;
+	font-size: 15px;
+	position: absolute;
+	background-color:rgb(30, 30, 30);
+
+}
+
+
+.cpass {
+	border-radius: 20px;
+	padding: 20px;
+	margin-right: 160px; 
+	margin-top: 300px;
+	width:300px;
+	border: 3px solid  #2672AA;
+	outline: none;
+	font-size: 15px;
+	position: absolute;
+	background-color:rgb(30, 30, 30);
+}
+
+.sub-btn {
+	color: #fff;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 24.627px;
+	background: linear-gradient(136deg, #C837AB 0%, #1D066E 100%);
+	box-shadow: 0px 3.296849012374878px 12.363183975219727px 0px rgba(0, 0, 0, 0.25);
+	display: flex;
+	width: 250px;
+	height: 61px;
+	padding: 22.254px 0px 18.746px 0px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 380px;
+	margin-left:  50px;
+	position: absolute;
+}
+
+.text-old {
+	color: #fff;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.text-new {
+	color: #fff;
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.text-confirm {
+	color: #fff;
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.error {
+	color: #FF6161;
+	font-size: 25px;
+	font-style: normal;	
+	font-weight: 400;
+ 	width: 500px;
+ 	position: absolute;
+ 	margin-top: -100px;
+ 	text-align: justify;
+}

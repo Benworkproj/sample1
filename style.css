@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+  
+
+ 
+.logo {
+	color: #fff;
+	font-size: 56px;
+	font-weight: 700;
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 150px;
+}
+
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 950px;
+
+}
+
+.nav-links ul li{
+  list-style:   none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+
+}
+
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+
+  font-weight: 700;
+
+}
+
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #fff;
+    display: block;
+  margin: auto;
+  transition: 0.5s;
+
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
+  }
+
+
+  .join {
+ 
+  	width: 145px;
+	height: 50px;
+	border: solid 1px; 
+	text-align: center;
+	margin-bottom: 200px;
+	position: absolute;
+  }
+
+ div.cvsu {
+ 	color: #FFF;
+ 	display: flex;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 200px;
+	font-size: 25px;
+
+ }
+
+ div.blue {
+ 	color: #fff;
+ 	margin-top: 480px;
+ 	position: absolute;
+ 	font-size: 75px;
+ 	margin-left: 200px;
+
+ }
+
+ div.heroes {
+ 	color: white;
+ 	padding: 5px;
+ 	background-color: #001662;;
+ 	position: absolute;
+ 	font-size: 48px;
+ 	margin-top: 630px;
+ 	margin-left: 200px;
+ }
+
+

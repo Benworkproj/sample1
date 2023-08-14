@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+
+div.signup {
+	text-align: center;
+	background-color: white;
+	height: 100vh;
+	width: 1300px;
+
+
+}
+
+
+
+div.left-form {
+	position: absolute;
+	margin-top: 310px;
+	margin-left: 300px;
+
+}
+div.right-form {
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 700px;
+
+}
+
+div.sub-btn {
+	position: absolute;
+}
+
+.Fullname {
+	border-radius: 20px;
+	padding: 23px;
+	width: 250px;
+	border: 3px solid  #2672AA;
+	outline: none;
+	font-size: 15px;
+}
+
+.StudentID {
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 23px;
+	width: 250px;
+	border: 3px solid  #2672AA;
+	outline: none;
+	font-size: 15px;
+}
+
+.Sports {
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 23px;
+	width: 250px;
+	border: 3px solid  #2672AA;
+	outline: none;
+	font-size: 15px;
+}
+
+
+
+.year{
+	
+	width: 100px;
+	padding: 20px;
+	border-radius: 20px;
+	border: 1px solid;
+	outline: none;
+	margin-left: -160px;
+	margin-top: 20px;
+	border: 3px solid  #2672AA; 
+}
+
+.birth{
+	position: absolute;
+	width: 100px;
+	padding: 20px;
+	border-radius: 20px;
+	border: 3px solid  #2672AA;
+	outline: none;
+	margin-left: 5px; 
+	margin-top: -62px;
+
+}
+
+.right {
+	border-radius: 20px;
+	padding: 23px;
+	margin: 10px 0;
+	width: 250px;
+	border: 3px solid  #2672AA;
+	outline: none;
+	font-size: 15px;
+}
+
+div.create-acc {
+	color: black;
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 300px;
+	font-weight: 800px;
+
+}
+
+ .sub-btn {
+	color: #fff;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 24.627px;
+	background: linear-gradient(136deg, #C837AB 0%, #1D066E 100%);
+	box-shadow: 0px 3.296849012374878px 12.363183975219727px 0px rgba(0, 0, 0, 0.25);
+	display: flex;
+	width: 420px;
+	height: 61px;
+	padding: 22.254px 0px 18.746px 0px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 660px;
+	margin-left: 300px;
+	position: absolute;
+}
+
+div.al-acc2 {
+	margin-top: 740px;
+	margin-left: 390px;
+	position: absolute;
+}
+ 
+
+ div.login {
+ 	margin-top: 740px;
+	margin-left: 570px;
+	position: absolute;
+
+ }
+
+ .login2 {
+ 	color: #55BDB3;
+ }

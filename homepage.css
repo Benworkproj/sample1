@@ -1,0 +1,1137 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: century gothic;
+}
+
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 945px;
+
+}
+
+.nav-links ul li{
+  list-style:   none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+ 
+
+}
+
+.nav-links img{
+  list-style:   none;
+  display: inline-block;
+ 
+  position: absolute;
+  margin-left: 35px;
+
+}
+
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+
+  font-weight: 700;
+
+}
+
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #fff;
+    display: block;
+  margin: auto;
+  transition: 0.5s;
+
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
+  }
+
+div.logout-btn {
+  position: absolute;
+  margin-left: 1630px;
+  margin-top: -1290px;
+}
+
+
+.logout {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  border-style: none;
+  background: #fff;
+  color: #1D066E;
+}
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown {
+  width: 100%;
+  background: black;
+  opacity: 50%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  text-align: center;
+
+}
+
+ul li a:hover {
+
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+.profile-img {
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: -15px;
+  position: absolute;
+  
+}
+
+ul li ul.dropdown-profile li {
+  display: block;
+  width: 100px;
+
+
+}
+
+ 
+
+
+ul li ul.dropdown-profile  {
+  width: 100%;
+  background: black;
+  opacity: 50%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  text-align: center;
+  
+
+
+}
+
+ul li a:hover {
+
+}
+
+ul li:hover ul.dropdown-profile  {
+  display: block;
+  width: 120px;
+  position: absolute;
+  margin-left: -10px;
+  margin-top: 15px;
+  
+}
+
+.logo {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  position: absolute;
+   margin-top: 70px;
+  margin-left: 120px;
+   
+}
+
+.slider{
+  width: 100%;
+  height:100vh;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 500%;
+  height:100vh;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img{
+  width: 100%;
+  height:100vh;
+}
+
+/*css for manual slide navigation*/
+
+.navigation-manual{
+  position: absolute;
+  width: 100%;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: #40D3DC;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+
+#radio5:checked ~ .first{
+  margin-left: -80%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 930px;
+}
+
+.navigation-auto div{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: #40D3DC;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: #40D3DC;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #40D3DC;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #40D3DC;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+  background: #40D3DC;
+}
+
+
+.slide h1{
+  position:relative;
+  color: #FFF;
+  font-size: 50px;
+  margin-top: -350px;
+  margin-left: 200px;
+  overflow: hidden;
+  display: flex;
+}
+
+.slide p {
+  position:relative;
+  color: #FFF;
+  font-size: 20px;
+  width: 400px;
+  text-align: justify;
+  margin-left: 200px;
+  overflow: hidden;
+  display: flex;
+}
+div.container-1 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.cont-1-feat {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 350px;
+  color: #FFF;
+  width: 300px;
+}
+
+
+div.white-circ {
+  width: 80px;
+  height: 80px;
+  background-color: #D9D9D9;
+  position: absolute;
+  border-radius: 100px;
+  margin-left: 450px;
+  margin-top: 20px;
+
+}
+div.feat-player {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 270px;
+  width: 550px;
+  height: 500px;
+  border-radius: 45px;
+  background-color: #232323;
+}
+
+div.feat-player img {
+  position: absolute;
+  margin-top: 15px;
+}
+
+.feat-sports {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 250px;
+  color: #5DFCA4;
+  font-size: 25px;
+}
+
+.player-name {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 250px;
+  color: #FFF;
+  font-size: 50px;
+  width: 10px;
+}
+
+.posi {
+  position: absolute;
+  margin-top: 230px;
+  color: #5DFCA4;
+  margin-left: 250px;
+}
+
+.hei {
+  position: absolute;
+  margin-top: 250px;
+  color: #5DFCA4;
+  margin-left: 250px;
+}
+
+.wei {
+  position: absolute;
+  margin-top: 270px;
+  color: #5DFCA4;
+  margin-left: 250px;
+}
+
+.yr {
+  position: absolute;
+  margin-top: 290px;
+  color: #5DFCA4;
+  margin-left: 250px;
+}
+
+.age {
+  position: absolute;
+  margin-top: 310px;
+  color: #5DFCA4;
+  margin-left: 250px;
+}
+
+.posi1 {
+  position: absolute;
+  margin-top: 230px;
+  color: #FFF;
+  margin-left: 320px;
+}
+
+.hei1 {
+  position: absolute;
+  margin-top: 250px;
+  color: #FFF;
+  margin-left: 320px
+}
+
+.wei1 {
+  position: absolute;
+  margin-top: 270px;
+  color: #FFF;
+   margin-left: 320px
+}
+
+.yr1 {
+  position: absolute;
+  margin-top: 290px;
+  color: #FFF;
+   margin-left: 360px;
+}
+
+.age1 {
+  position: absolute;
+  margin-top: 310px;
+  color: #FFF;
+   margin-left: 300px
+}
+
+div.game-stats {
+  position: absolute;
+  margin-top: 350px;
+}
+
+.matchs {
+  color: #FFF;
+  position: absolute;
+  margin-left: 250px;
+}
+
+.goal {
+  color: #FFF;
+  position: absolute;
+  margin-left: 360px;
+}
+
+.assists {
+  color: #FFF;
+  position: absolute;
+  margin-left: 460px;
+}
+
+div.matchs-circ {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 250px;
+  border: 1px solid #5DFCA4;
+}
+
+div.matchs-circ p {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #FFF;  
+}
+
+div.goals-circ {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 350px;
+  border: 1px solid #5DFCA4;
+}
+
+div.goals-circ p {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #FFF;  
+}
+
+div.assists-circ {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 450px;
+  border: 1px solid #5DFCA4;
+}
+
+div.assists-circ p {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #FFF;  
+}
+
+
+div.container-2 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 550px;
+
+}
+.cont-2-feat {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 750px;
+  color: #FFF;
+  width: 300px;
+}
+
+div.points-table {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 400px;
+  width: 550px;
+  height: 500px;
+  background-color: #232323;
+}
+
+
+div.tbp-header {
+  width: 550px;
+  height: 80px;
+  background: linear-gradient(144deg, #C837AB 0%, #1D066E 100%);
+}
+
+.points-sport {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 30px;
+  color:#FFF;
+  font-size: 25px;
+}
+
+.sex {
+  color:#FFF;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 250px;
+  font-size: 25px;
+}
+
+.w{
+  color:#FFF;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 350px;
+  font-size: 25px;
+}
+
+.l {
+  color:#FFF;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 450px;
+  font-size: 25px;
+}
+
+div.points-content {
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 430px;
+  color: #FFF;
+  width: 500px;
+  font-size: 20px;
+}
+
+
+.s1 {
+  position: absolute;
+  margin-top: 10px;
+}
+
+.s2 {
+  position: absolute;
+  margin-top: 70px;
+}
+
+.s3 {
+  position: absolute;
+  margin-top: 130px;
+}
+
+.s4 {
+  position: absolute;
+  margin-top: 190px;
+}
+
+.s5 {
+  position: absolute;
+  margin-top: 250px;
+}
+
+.s6 {
+  position: absolute;
+  margin-top: 310px;
+}
+
+
+.g1 {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 230px;
+}
+
+.g2 {
+  position: absolute;
+  margin-top: 70px;
+   margin-left: 230px;
+}
+
+.g3 {
+  position: absolute;
+  margin-top: 130px;
+   margin-left: 230px;
+}
+
+.g4 {
+  position: absolute;
+  margin-top: 190px;
+   margin-left: 230px;
+}
+
+.g5 {
+  position: absolute;
+  margin-top: 250px;
+   margin-left: 230px;
+}
+
+.g6 {
+  position: absolute;
+  margin-top: 310px;
+   margin-left: 230px;
+}
+
+.w1 {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 330px;
+}
+
+.w2 {
+  position: absolute;
+  margin-top: 70px;
+ margin-left: 330px;
+}
+
+.w3 {
+  position: absolute;
+  margin-top: 130px;
+   margin-left: 330px;
+}
+
+.w4 {
+  position: absolute;
+  margin-top: 190px;
+   margin-left: 330px;
+}
+
+.w5 {
+  position: absolute;
+  margin-top: 250px;
+   margin-left:330px;
+}
+
+.w6 {
+  position: absolute;
+  margin-top: 310px;
+   margin-left: 330px;
+}
+
+.l1 {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 420px;
+}
+
+.l2 {
+  position: absolute;
+  margin-top: 70px;
+ margin-left: 420px;
+}
+
+.l3 {
+  position: absolute;
+  margin-top: 130px;
+   margin-left: 420px;
+}
+
+.l4 {
+  position: absolute;
+  margin-top: 190px;
+   margin-left: 420px;
+}
+
+.l5 {
+  position: absolute;
+  margin-top: 250px;
+   margin-left:420px;
+}
+
+.l6 {
+  position: absolute;
+  margin-top: 310px;
+   margin-left: 420px;
+}
+
+div.container-3 {
+  position: absolute;
+  margin-top: 850px;
+}
+
+div.container-3 img {
+  width: 1862px;
+}
+
+div.container-sched {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  margin-top: 800px;
+  background-color:#3D3D3D;
+
+}
+
+.text-match {
+  position: absolute;
+  color: #FFF;
+  margin-top: 60px;
+  margin-left: 150px;
+  font-size: 50px;
+
+}
+div.semis {
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 150px;
+}
+
+div.semis-text {
+  width: 190px;
+  height: 50px;
+  background-color: #1E1E1E;
+}
+
+div.semis-text p {
+  color: #FFF;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 25px;
+  font-size: 25px;
+
+}
+
+div.finals {
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 550px;
+}
+
+div.finals-text {
+  width: 190px;
+  height: 50px;
+  background-color: #1E1E1E;
+}
+
+div.finals-text p {
+  color: #FFF;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 55px;
+  font-size: 25px;
+
+}
+div.match-1 {
+  position: absolute;
+  margin-left: -90px;
+  width: 500px;
+}
+
+.heroes-1 {
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 150px;
+  width: 90px;
+  height: 90px;
+}
+
+.vs-1 {
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 250px;
+  color: #FFF;
+}
+
+.heroes-2 {
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 290px;
+  width: 90px;
+  height: 90px;
+}
+
+div.green-line-1 {
+  width: 400px;
+  height: 2px;
+  background-color: #5DFCA4;
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 150px;
+}
+
+
+.sports-1 {
+  position: absolute;
+  margin-top: 290px;
+  margin-left: 428px;
+  color: #5DFCA4;
+}
+
+.gym-loc-1 {
+  position: absolute;
+  margin-top: 370px;
+  margin-left: 150px;
+  font-size: 20px;
+  color: #FFF;
+
+}
+
+
+div.match-1 p {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 150px;
+  color: #FFF;
+  word-spacing: 3px;
+}
+
+div.match-2 {
+  position: absolute;
+  width: 500px;
+  margin-left: 360px;
+
+}
+
+div.match-2 p{
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 150px;
+  color: #FFF;
+  word-spacing: 3px;
+}
+
+.sports-2 {
+  position: absolute;
+  margin-top: 290px;
+  margin-left: 390px;
+  color: #5DFCA4;
+}
+
+
+
+div.match-3 {
+  position: absolute;
+  width: 500px;
+  margin-left: 810px;
+}
+
+div.match-3 p{
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 150px;
+  color: #FFF;
+  word-spacing: 3px;
+}
+
+.sports-3 {
+  position: absolute;
+  margin-top: 290px;
+  margin-left: 417px;
+  color: #5DFCA4;
+}
+
+
+div.match-4 {
+  position: absolute;
+  width: 500px;
+  margin-left: 1260px;
+}
+
+div.match-4 p{
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 150px;
+  color: #FFF;
+  word-spacing: 3px;
+}
+
+.sports-4 {
+  position: absolute;
+  margin-top: 290px;
+  margin-left: 427px;
+  color: #5DFCA4;
+}
+
+div.container-4 {
+  position: absolute;
+  margin-top: 1500px;
+  margin-left: 750px;
+}
+
+.high {
+  color: #5DFCA4;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+div.green-line-2 {
+  width: 650px;
+  height: 2px;
+  background-color: #5DFCA4;
+  position: absolute;
+  margin-left: -700px;
+  margin-top: -20px;
+}
+
+div.green-line-3 {
+  width: 650px;
+  height: 2px;
+  background-color: #5DFCA4;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: -20px;
+}
+
+div.high-img {
+  position: absolute;
+  display: inline-flex;
+  margin-left: -675px;
+  margin-top: 100px;
+}
+
+ .high1 {
+  position: absolute;
+  margin-top: 50px;
+  width: 400px;
+  height: 250px;
+}
+
+.high2 {
+  position: absolute;
+   margin-top: 50px;
+   margin-left: 400px;
+   width: 400px;
+  height: 250px;
+}
+
+.high3 {
+  position: absolute;
+  margin-top: 300px;
+  width: 400px;
+  height: 250px;
+}
+
+.high4 {
+  position: absolute;
+   margin-top: 300px;
+   margin-left: 400px;
+   width: 400px;
+  height: 250px;
+}
+
+
+div.high-vid {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 175px;
+}
+.vid {
+  width: 900px;
+  height: 500px;
+}
+
+div.cont-4 {
+  position: absolute;
+  margin-top: 2350px;
+  margin-left: 200px;
+}
+
+div.cont-4 p {
+  color: #FFF;
+  text-align: right;
+  font-size: 20px;
+}
+
+div.cont-4 h1 {
+  background: linear-gradient(136deg, #C837AB 0%, #1D066E 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: -65px;
+  margin-left: 730px;
+  position: absolute;
+  width: 500px;
+  font-weight: 900;
+}
+
+
+.sub-btn {
+  color: #fff;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 24.627px;
+  background: linear-gradient(136deg, #C837AB 0%, #1D066E 100%);
+  box-shadow: 0px 3.296849012374878px 12.363183975219727px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  width: 150px;
+  height: 61px;
+  padding: 22.254px 0px 18.746px 0px;
+  justify-content: center;
+  align-items: center;
+  margin-top:  -60px;
+  margin-left: 1150px;
+  position: absolute;
+}
+  
+
+div.text-footer-heroes {
+    position: absolute;
+    margin-top: 2500px;
+    height: 270px;
+    width: 100%;
+    background: linear-gradient(136deg, #C837AB 0%, #1D066E 100%);
+  }
+
+
+.footer-heroes {
+  font-size: 56px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 35px;
+  margin-left: 120px;
+
+}
+
+div.footer-reserved {
+    position: absolute;
+    margin-top: 2772px;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(136deg, #C837AB 0%, #1D066E 100%);
+     
+}
+
+.text-reserved {
+  position: absolute;
+  margin-top: 17px;
+  margin-left: 50px;
+  color: #fff;
+}
+
+div.line {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin-top: 2770px;
+}
+
+div.heroes-logo {
+  position: absolute;
+  margin-top: 2600px;
+  margin-left: 130px;
+}
+
+div.quick-links {
+  position: absolute;
+  margin-top: 2530px;
+  margin-left: 600px;
+}
+
+.text-quick {
+  color: #fff;
+}
+
+div.quick-links-1 {
+
+  margin-top: 10px;
+
+}
+
+
+div.quick-links-2 {
+
+  margin-top: -160px;
+  margin-left: 350px;
+}
+
+div.quick-links-2 a {
+  color: #FFF;
+  display: flex;
+  line-height: 2.5;
+  text-decoration: none;
+}
+
+div.quick-links-1 a {
+  color: #FFF;
+  display: flex;
+  line-height: 2.5;
+  text-decoration: none;
+  width: 270px;
+}
+
+div.contact-info {
+  position: absolute;
+  margin-top: 2530px;
+  margin-left: 1250px;
+  color: #FFF;
+}
+
+div.cont-inf {
+  position: absolute;
+  margin-top: 10px;
+  color: #FFF
+
+}
+
+div.cont-inf p{
+  
+  line-height: 2.5;
+}
+
+div.footer-svg-icon {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1700px;
+  word-spacing: 20px;
+}
